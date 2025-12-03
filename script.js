@@ -225,44 +225,103 @@
                  
 // for(let i=0;i<=a;i++) console.log("sanket louda");
 // }
+// let prompt = require("prompt-sync")();
+// let a=Number(prompt("Enter a number : "))
+
+// let temp=a;
+// let count=0;
+// while (a>0){
+//     count++
+//     a=Math.floor(a/10);
+
+// }
+// if(count===10)
+// {
+//     let ans=0;
+//     while(temp>0){
+//         let digit=Math.floor(temp%10)
+//         ans=Math.floor(ans+(digit*count))
+//         count--;
+
+//         temp=Math.floor(temp/10)
+//     }
+
+//     if(ans%11==0)
+//     {
+//         console.log("valid isbn number");
+        
+//     }
+//     else{
+//         console.log("not a valid isbn nuber");
+        
+//     }
+
+    
+
+// }
+// else{
+//     console.log("you have not entered 10 digits");
+    
+// }
+
+// let prompt = require("prompt-sync")();
+// let computer= Math.floor(Math.random()*100+1)
+// console.log(computer);
+// let user;
+// do{
+//     user=Number(prompt("Enter a number between 1 to 100 : "))
+//     if(user>computer) console.log("too big");
+//     else if(computer>user) console.log("too small");
+//     else if(computer==user) console.log("congratulations😎 , you guessed correctly !");
+//     else console.log("Invalid number");
+
+// }while(computer!=user)
+
+
 let prompt = require("prompt-sync")();
-let a=Number(prompt("Enter a number : "))
-
-let temp=a;
-let count=0;
-while (a>0){
-    count++
-    a=Math.floor(a/10);
-
-}
-if(count===10)
-{
-    let ans=0;
-    while(temp>0){
-        let digit=Math.floor(temp%10)
-        ans=Math.floor(ans+(digit*count))
-        count--;
-
-        temp=Math.floor(temp/10)
-    }
-
-    if(ans%11==0)
+let n;
+do{
+    console.log("Enter 1 for the addition");
+    console.log("Enter 2 for the subtraction");
+    console.log("Enter 3 for the multiplication");
+    console.log("Enter 4 for the division");
+    n=Number(prompt("Enter your choice :"))
+    switch(n)
     {
-        console.log("valid isbn number");
+        case 1:{
+            let a=Number(prompt("enter first number :"))  
+            let b=Number(prompt("enter second number :"))
+            console.log("Addition = "+(a+b));
+            break;
+        }
+        case 1:{
+            let a=Number(prompt("enter first number :"))
+            let b=Number(prompt("enter second number :"))
+            console.log("subtraction = "+(a-b));
+            break
+        }
+        case 3:{
+            let a=Number(prompt("enter first number:"))
+            let b=Number(prompt("enter second number :"))
+            console.log("Multiplication = "+(a*b));
+            break
+        }
+        case 4:{
+            let a=Number(prompt("enter first number :"))
+            let b=Number(prompt("enter second number :"))
+            console.log("division = "+(a/b));
+            break;
+        }
+        default : console.log("Invalid Number!!");
         
+            
     }
-    else{
-        console.log("not a valid isbn nuber");
-        
-    }
-
+    
+    n=Number(prompt("Enter 10 for continuing this program :"))
     
 
-}
-else{
-    console.log("you have not entered 10 digits");
-    
-}
+}while(n==10)
+
 
 
 
