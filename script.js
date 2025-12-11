@@ -278,50 +278,120 @@
 // }while(computer!=user)
 
 
-let prompt = require("prompt-sync")();
-let n;
-do{
-    console.log("Enter 1 for the addition");
-    console.log("Enter 2 for the subtraction");
-    console.log("Enter 3 for the multiplication");
-    console.log("Enter 4 for the division");
-    n=Number(prompt("Enter your choice :"))
-    switch(n)
-    {
-        case 1:{
-            let a=Number(prompt("enter first number :"))  
-            let b=Number(prompt("enter second number :"))
-            console.log("Addition = "+(a+b));
-            break;
-        }
-        case 1:{
-            let a=Number(prompt("enter first number :"))
-            let b=Number(prompt("enter second number :"))
-            console.log("subtraction = "+(a-b));
-            break
-        }
-        case 3:{
-            let a=Number(prompt("enter first number:"))
-            let b=Number(prompt("enter second number :"))
-            console.log("Multiplication = "+(a*b));
-            break
-        }
-        case 4:{
-            let a=Number(prompt("enter first number :"))
-            let b=Number(prompt("enter second number :"))
-            console.log("division = "+(a/b));
-            break;
-        }
-        default : console.log("Invalid Number!!");
+// let prompt = require("prompt-sync")();
+// let n;
+// do{
+//     console.log("Enter 1 for the addition");
+//     console.log("Enter 2 for the subtraction");
+//     console.log("Enter 3 for the multiplication");
+//     console.log("Enter 4 for the division");
+//     n=Number(prompt("Enter your choice :"))
+//     switch(n)
+//     {
+//         case 1:{
+//             let a=Number(prompt("enter first number :"))  
+//             let b=Number(prompt("enter second number :"))
+//             console.log("Addition = "+(a+b));
+//             break;
+//         }
+//         case 1:{
+//             let a=Number(prompt("enter first number :"))
+//             let b=Number(prompt("enter second number :"))
+//             console.log("subtraction = "+(a-b));
+//             break
+//         }
+//         case 3:{
+//             let a=Number(prompt("enter first number:"))
+//             let b=Number(prompt("enter second number :"))
+//             console.log("Multiplication = "+(a*b));
+//             break
+//         }
+//         case 4:{
+//             let a=Number(prompt("enter first number :"))
+//             let b=Number(prompt("enter second number :"))
+//             console.log("division = "+(a/b));
+//             break;
+//         }
+//         default : console.log("Invalid Number!!");
         
             
+//     }
+    
+//     n=Number(prompt("Enter 10 for continuing this program :"))
+    
+
+// }while(n==10)
+
+
+// let prompt = require("prompt-sync")();
+// let n=Number(prompt("Enter Size of array : "))
+// let arr=new Array(n)
+// sum=0;
+// let max=arr[0]
+// for(let i=0;i<arr.length;i++)
+// {
+
+//     arr[i]=Number(prompt("Enter a value:"))
+//     // sum=sum+arr[i]
+// }
+// console.log(arr);
+// console.log(sum);
+// let max=arr[0]
+// for(let i=1;i<arr.length;i++){
+    //     if(max<arr[i])
+    //     {
+    //         max=arr[i]
+    //     }
+    // }
+    // console.log(max);
+    
+    
+    // let arr=[10,22,12,18,32,45,23]
+    // let max=Math.max(arr[0],arr[1])
+    // let smax=Math.min(arr[0],arr[1])
+    // for(let i=2;i<arr.length;i++){
+    //     if(arr[i]>max){
+    //         smax=max
+    //     max=arr[i]
+    //     }
+            
+            
+    //     else if(arr[i]>smax&&arr[i!=max])
+    //     {
+    //         smax=arr[i]
+    //     }
+    // }
+    // console.log(max);
+    // console.log(smax);
+
+    // let arr=[10,22,12,18,32,45,23]
+    // 
+    // let temp=new Array(arr.length)
+    // let i=arr.length-1;
+    // for(let j=0;j<temp.length;j++)
+    // {
+    //     temp[j]=arr[i]
+    //     i--
+    // }
+    // console.log(arr);
+    // console.log(temp);
+
+    let arr=[10,22,12,18,32,45,23]
+    
+    let i=0 ,j=arr.length-1
+    while(i<j)
+    {
+        let temp=arr[i]
+        arr[i]=arr[j]
+        arr[j]=temp
+        i++
+        j--
+
     }
+    console.log(arr);
     
-    n=Number(prompt("Enter 10 for continuing this program :"))
     
-
-}while(n==10)
-
+    
 
 
 
