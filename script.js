@@ -28,11 +28,11 @@
 // let age= Number(prompt("Enter your age : "))
 // if(age>=18){
 //     console.log("valid voter 4 dii election");
-    
+
 // }
 // else{
 //     console.log("Maa chuda jaake");
-    
+
 // }
 
 // let prompt = require("prompt-sync")();
@@ -40,15 +40,15 @@
 
 // if (marks>=90 && marks<=100){
 //     console.log("you have a bright future");
-    
+
 // } else if(marks>=60 && marks<=89)
 // {
 //     console.log("you have to work hard");
-    
+
 // }
 // else{
 //     console.log("maadorchod bhosidk machhar ki jhaant gaandu maa ki chut terii");
-    
+
 // }
 
 // let prompt = require("prompt-sync")();
@@ -72,12 +72,12 @@
 // if (num1>num2 && num1>num3) console.log("num1 is greatest");
 //  else if(num2> num1 && num2>num3) console.log("num2 is greatest");
 //  else console.log("num3 is greatest");
- 
+
 //  let prompt = require("prompt-sync")();
 //  let year= Number(prompt("Enter a year : "))
 //  if (year % 4==0 && year % 100 !=0 ) console.log("the year is a leap year");
 //  else console.log("the year is not a leap year");
- 
+
 
 // let prompt = require("prompt-sync")();
 // let price=Number(prompt("Enter a price : "))
@@ -88,14 +88,14 @@
 //      let price2 = price * (5/100)
 //      price= price-price2
 //    console.log(`you have to pay ${price}`);
-    
+
 // }
 // else if(price>=7001 && price <=9000 )
 // {
 //     let price3 = price * (10/100)
 //     price= price-price3
 //     console.log(`you have to pay ${price}`);
-    
+
 // }
 // else 
 // {
@@ -121,10 +121,10 @@
 // if (unit>0 && unit<=100 ) console.log(unit*4.2);
 // else if(unit>=101 && unit<=200){
 //     console.log((100*4.2)+(200-unit)*6);
-    
+
 // } else if(unit>=201 && unit<=400){
 //     console.log((100*4.2)+(100*6)+(400-unit)*8);
-    
+
 // }
 // else{
 //      console.log((100*4.2)+(100*6)+(200*8)+(unit-400)*13);
@@ -140,8 +140,8 @@
 // {
 //     if(year%400==0 || year%4==0 && year /100!=0) console.log(days = 29);
 //     else console.log(days =28);
-    
-    
+
+
 // }
 // else if (month==1 ||month==3 ||month==5 ||month==7 ||month==8 ||month==10 ||month==12 ) console.log(days = 31);
 
@@ -172,8 +172,8 @@
 //     default: 
 //     console.log("sundday");
 //     break
-    
-    
+
+
 // }
 
 // let prompt = require("prompt-sync")();
@@ -191,7 +191,7 @@
 //         break;
 //         default : consonant++
 //     }
-    
+
 // }
 
 //     console.log("vowel "+ vowel);
@@ -222,7 +222,7 @@
 
 //         default:
 //             console.log("lund lele mera");
-                 
+
 // for(let i=0;i<=a;i++) console.log("sanket louda");
 // }
 // let prompt = require("prompt-sync")();
@@ -249,19 +249,19 @@
 //     if(ans%11==0)
 //     {
 //         console.log("valid isbn number");
-        
+
 //     }
 //     else{
 //         console.log("not a valid isbn nuber");
-        
+
 //     }
 
-    
+
 
 // }
 // else{
 //     console.log("you have not entered 10 digits");
-    
+
 // }
 
 // let prompt = require("prompt-sync")();
@@ -313,12 +313,12 @@
 //             break;
 //         }
 //         default : console.log("Invalid Number!!");
-        
-            
+
+
 //     }
-    
+
 //     n=Number(prompt("Enter 10 for continuing this program :"))
-    
+
 
 // }while(n==10)
 
@@ -338,64 +338,167 @@
 // console.log(sum);
 // let max=arr[0]
 // for(let i=1;i<arr.length;i++){
-    //     if(max<arr[i])
-    //     {
-    //         max=arr[i]
-    //     }
-    // }
-    // console.log(max);
-    
-    
-    // let arr=[10,22,12,18,32,45,23]
-    // let max=Math.max(arr[0],arr[1])
-    // let smax=Math.min(arr[0],arr[1])
-    // for(let i=2;i<arr.length;i++){
-    //     if(arr[i]>max){
-    //         smax=max
-    //     max=arr[i]
-    //     }
-            
-            
-    //     else if(arr[i]>smax&&arr[i!=max])
-    //     {
-    //         smax=arr[i]
-    //     }
-    // }
-    // console.log(max);
-    // console.log(smax);
+//     if(max<arr[i])
+//     {
+//         max=arr[i]
+//     }
+// }
+// console.log(max);
 
-    // let arr=[10,22,12,18,32,45,23]
-    // 
-    // let temp=new Array(arr.length)
-    // let i=arr.length-1;
-    // for(let j=0;j<temp.length;j++)
-    // {
-    //     temp[j]=arr[i]
-    //     i--
-    // }
-    // console.log(arr);
-    // console.log(temp);
 
-    let arr=[10,22,12,18,32,45,23]
-    
-    let i=0 ,j=arr.length-1
-    while(i<j)
-    {
-        let temp=arr[i]
-        arr[i]=arr[j]
-        arr[j]=temp
-        i++
-        j--
+// let arr=[10,22,12,18,32,45,23]
+// let max=Math.max(arr[0],arr[1])
+// let smax=Math.min(arr[0],arr[1])
+// for(let i=2;i<arr.length;i++){
+//     if(arr[i]>max){
+//         smax=max
+//     max=arr[i]
+//     }
 
-    }
-    console.log(arr);
-    
-    
-    
+
+//     else if(arr[i]>smax&&arr[i!=max])
+//     {
+//         smax=arr[i]
+//     }
+// }
+// console.log(max);
+// console.log(smax);
+
+// let arr=[10,22,12,18,32,45,23]
+// 
+// let temp=new Array(arr.length)
+// let i=arr.length-1;
+// for(let j=0;j<temp.length;j++)
+// {
+//     temp[j]=arr[i]
+//     i--
+// }
+// console.log(arr);
+// console.log(temp);
+
+// let arr=[10,22,12,18,32,45,23]
+
+// let i=0 ,j=arr.length-1
+// while(i<j)
+// {
+//     let temp=arr[i]
+//     arr[i]=arr[j]
+//     arr[j]=temp
+//     i++
+//     j--
+
+// }
+// console.log(arr);
 
 
 
 
+//---------------------JS ADVANCE ----------------------------
+// console.log("HEllio");
+// section 1 -----------
+// class User{
+//     constructor(name,age){
+//         this.name=name
+//         this.age=age
+//     }
+//     login(){
+//         console.log("user logged inn");
+
+//     }
+// }
+// let user1=new User("suchee",22)
+// let user2=new User("sanket",23)
+// let user3=new User("behera",24)
+//     class Product{
+//         constructor(name,price){
+//             this.name=name
+//             this.price=price
+//         }
+//         afterDiscount(){
+//             return this.price=this.price-200
+//         }
+//     }
+// let proc1=new Product("rice",500)
+// let proc2=new Product("ice",770)
+// let proc3=new Product("roti",2500)
+// let proc4=new Product("pudi",5100)
+// let proc5=new Product("chicken",5090)
+
+//-------------------newdrive(SECTION 1)----------------
+// class Laptop{
+//     constructor(brand,price){
+//         this.brand=brand
+//         this.price=price
+//     }
+//     start(){
+//         return("Laptop started");
+
+//     }
+//     increasePrice(){
+//         return(this.price=this.price+this.price*0.10)
+//     }
+
+// }
+// let start1=new Laptop("Lenovo",52000)
+// let start2=new Laptop("MACBOOK",152000)
+// let start3=new Laptop("Samsung",72000)
+// let start4=new Laptop("Realme",40000)
+// let start5=new Laptop("DELL",55000)
+// let start6=new Laptop("HP Pavilion",60000)
+// let start7=new Laptop("HP Victus",63000)
+// let start8=new Laptop("Asus",59000)
+
+// ------easy peasy to do it
+
+
+//SECTION 2: Classes and Objects
+// class Employee{
+//     constructor(name,salary){
+//         this.name=name
+//         this.salary=salary
+//     }
+//     showDetails(){
+//         return(this.name +" "+this.salary)
+//     }
+// }
+// let emp1=new Employee("suchee",18000)
+// let emp2=new Employee("sanhee",98000)
+// let emp3=new Employee("sanket",39000)
+
+// ------- Completly done and dusted
+
+//SECTION 3: Constructor and Initialization
+
+// class Bankaccount{
+//     constructor(name,balance){
+
+//         this.name=name
+//         this.balance=balance
+//     }
+//     deposit(){
+//        return (this.balance=this.balance+100)
+//     }
+// }
+// let bank1=new Bankaccount("suchee" ,1000)
+// let bank2=new Bankaccount()
+//   --------------done------
+
+
+
+function abcd(fn1) {
+    fn1(function (fn3) {
+        fn3(function () {
+            console.log("hello");
+
+        })
+    })
+
+}
+abcd(function (fn2) {
+    fn2(function (fn4) {
+        fn4()
+    });
+})
 
 
 
@@ -404,7 +507,14 @@
 
 
 
- 
+
+
+
+
+
+
+
+
 
 
 
