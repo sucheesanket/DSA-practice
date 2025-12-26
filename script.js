@@ -485,21 +485,55 @@
 
 
 
-function abcd(fn1) {
-    fn1(function (fn3) {
-        fn3(function () {
-            console.log("hello");
+// function abcd(fn1) {
+//     fn1(function (fn3) {
+//         fn3(function () {
+//             console.log("hello");
 
-        })
-    })
+//         })
+//     })
 
+// }
+// abcd(function (fn2) {
+//     fn2(function (fn4) {
+//         fn4()
+//     });
+// })
+
+// function greet(another){
+//  another();
+// }
+// greet(function(){
+// console.log("Hello!world");
+
+// })
+
+// function sayHello(name,callback){
+//     console.log("hi "+name);
+//     callback();
+    
+// }
+// sayHello("sanket",function(){
+// console.log("Welcome!");
+
+// })
+// function calculate(number1,number2,callback){
+// callback(number1,number2);
+// }
+// calculate(3,6,function(a,b){
+//     console.log(a+b);
+    
+    
+// })
+
+function processData(callback){
+    console.log("Processing...");
+    callback();
 }
-abcd(function (fn2) {
-    fn2(function (fn4) {
-        fn4()
-    });
+processData(function(){
+    console.log("Done☑️");
+    
 })
-
 
 
 
